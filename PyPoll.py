@@ -16,23 +16,22 @@ print("The time right now is ", now)
 import csv
 import os
 
-# Assign a variable for the file to load and the indirect path.
+# Assign a variable to load a file from an indirect path.
 file_to_load = os.path.join("Resources", "election_results.csv")
-# Open the election results and read the file.
-with open(file_to_load) as election_data:
-
-    # Print the file object.
-     print(election_data)
-
-
-# Create a filename variable to a direct or indirect path to the file.
+# Assign a variable to save a file to an indirect path.
 file_to_save = os.path.join("analysis", "election_analysis.txt")
 
-# Using the with statement open the file as a text file.
-with open(file_to_save, "w") as txt_file:
+# Open the election results and read the file.
+with open(file_to_load) as election_data:
+    # Read the file object with the reader function.
+    file_reader = csv.reader(election_data)
 
-    # Write three counties to the file.
-    txt_file.write("Counties in the Election\n_________________________\n")
-    txt_file.write("Arapahoe\nDenver\nJefferson")
-
-
+    # Print the header row.
+    headers = next(file_reader)
+    print(headers)
+    
+    
+    
+    # Print each row in the CSV file.
+    #for row in file_reader:
+        #print(row)
