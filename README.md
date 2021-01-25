@@ -8,6 +8,9 @@ A Colorado Board of Elections employee assigned the following tasks to complete 
 3. Calculate the total number of votes for each candidate received. 
 4. Calculate the percentage of votes each candidate won.
 5. Determine the winner of the election based on popular vote.
+6. Calculate the voter turnout for each county.
+7. Calculate the percentage of votes from each county out of the total.
+8. Determine the county with the highest turnout.
 
 ## Resources
 - Data Source: election_results.csv
