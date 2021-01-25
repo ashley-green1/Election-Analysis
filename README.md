@@ -40,7 +40,19 @@ The analysis of the election shows that:
 
 - The county with the largest voter turnout was:
     - Denver, which produced 82.8% of voters, for a total of 306,055 voters.
+    
+![Election Results Snapshot](https://github.com/ashley-green1/Election-Analysis/blob/main/Resources/election_results_snapshot.png)
 
-## Challenge Overview
 
-## Challenge Summary
+## Election-Audit Summary
+
+Expanding the Election Audit to include voter turnout by county alongside the candidates results was a good idea and worth the time.  The added insight can be a guide for future election performance, so that you may properly allocate resorces where turnout is low or demographics are hard to reach.
+
+A little time invested into coding the script can provide on-demand analysis for years to come.  
+
+Modifying the script to produce turnout results by county is just one of many ways that minor adjustments to the code can reveal critical data.  For example, we could also dive deeper and determine what percentage of each county voted for each candidate by adding an if-statement to the code.  These type of Decision Statements are how the code runs calculations and all we've done is provide it with a data file. 
+
+Similarly, if this were a federal election, we could use the same script and change the county to states. 
+
+In short, no matter the number of candidates or counties, the script used to perform the Election Audit can be a valuable resourse for the board.  I am open to negotiation and available for consult if you are interested.
+
